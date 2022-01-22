@@ -6,9 +6,6 @@ import { ThemeProvider } from 'styled-components';
 import Global from '@pagerland/common/src/components/Global';
 import SvgUtils from '@pagerland/common/src/components/SvgUtils';
 
-import Alert from '@pagerland/common/src/components/Alert';
-import Switch from '@pagerland/common/src/components/Switch';
-import Box from '@pagerland/common/src/components/Box';
 import theme from './theme';
 
 const Theme = ({ children }) => {
