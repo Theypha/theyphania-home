@@ -3,7 +3,7 @@ import { css } from 'styled-components';
 export const space = [0, 4, 8, 16, 32, 64];
 
 export const colors = {
-  brand: '#2B3966',
+  brand: '#394d8a',
   error: '#EB5757',
   success: '#27AE60',
   shades: {
