@@ -12,7 +12,7 @@ const Logo = props => (
   <Svg 
     width="200" 
     height="45" 
-    viewBox="0 0 200 45" 
+    viewBox="0 0 475 100" 
     fill="none" 
     xmlns="http://www.w3.org/2000/svg"
     {...props}
