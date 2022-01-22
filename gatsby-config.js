@@ -37,11 +37,11 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Theyphania Home',
+        short_name: 'Theyphania',
         start_url: '/',
-        background_color: `#189AB4`,
-        theme_color: `#189AB4`,
+        background_color: `#2b3966`,
+        theme_color: `#394d8a`,
         display: 'minimal-ui',
         icon: 'src/images/icon.png', // This path is relative to the root of the site.
       },
