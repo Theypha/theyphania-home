@@ -10,9 +10,9 @@ const Svg = styled.svg`
 
 const Logo = props => (
   <Svg 
-    width="475" 
-    height="100" 
-    viewBox="0 0 475 100" 
+    width="200" 
+    height="45" 
+    viewBox="0 0 200 45" 
     fill="none" 
     xmlns="http://www.w3.org/2000/svg"
     {...props}
@@ -27,7 +27,7 @@ const Logo = props => (
       width="16" 
       height="60" 
       rx="2" 
-      fill="#2b3966"
+      fill="#ffffff"
     />
     <rect 
       x="10" 
@@ -36,14 +36,14 @@ const Logo = props => (
       height="46" 
       rx="2" 
       transform="rotate(-75 10 26.4548)" 
-      fill="#2b3966"
+      fill="#ffffff"
     />
     <rect 
       width="16" 
       height="46" 
       rx="2" 
       transform="matrix(0.258819 0.965926 0.965926 -0.258819 48 22.9057)" 
-      fill="#2b3966"
+      fill="#ffffff"
     />
   </Svg>
 );
