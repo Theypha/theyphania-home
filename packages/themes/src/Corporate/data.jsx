@@ -2,11 +2,11 @@ import textToMultiline from '@pagerland/common/src/utils/textToMultiline';
 import background2x from './assets/header.jpg';
 import background from './assets/header.jpg';
 import Goals from './assets/our-goals.png';
-import Goals2x from './assets/our-goals@2x.png';
+import Goals2x from './assets/our-goals.png';
 import Mission from './assets/our-mission.png';
-import Mission2x from './assets/our-mission@2x.png';
+import Mission2x from './assets/our-mission.png';
 import Team from './assets/team.png';
-import Team2x from './assets/team@2x.png';
+import Team2x from './assets/team.png';
 
 import Roleplay from './assets/roleplay.png';
 import Community from './assets/community.png';
@@ -56,8 +56,8 @@ export default {
     actions: [
       {
         href:
-          'https://community.theyphania.de/register/',
-        label: 'Jetzt registrieren',
+          'https://community.theyphania.de/',
+        label: 'Zur Community',
         target: '_blank',
       },
     ],
@@ -149,7 +149,7 @@ export default {
     subtitle: 'Problem innerhalb der Community?',
     title: 'Wir eilen zur Hilfe!',
     text:
-      'Gehe einfach ins unser Hilfe-Center und stelle eine Anfrage über den Ticket-Support.',
+      'Gehe einfach in unser Hilfe-Center und stelle eine Anfrage über den Ticket-Support.',
     buttons: [
       {
         label: 'Eröffne ein Ticket',
