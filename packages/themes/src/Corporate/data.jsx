@@ -8,9 +8,9 @@ import Mission2x from './assets/our-mission@2x.png';
 import Team from './assets/team.png';
 import Team2x from './assets/team@2x.png';
 
-import Consulting from './assets/consulting.svg';
-import Auditing from './assets/auditing.svg';
-import Strategy from './assets/strategy.svg';
+import Roleplay from './assets/roleplay.png';
+import Community from './assets/community.png';
+import Fun from './assets/fun.png';
 import Avatar1 from './assets/avatars/avatar-1.jpg';
 import Avatar12x from './assets/avatars/avatar-1@2x.jpg';
 import Avatar2 from './assets/avatars/avatar-2.jpg';
@@ -49,14 +49,6 @@ export default {
         label: 'Team',
       },
       {
-        to: 'testimonials',
-        label: 'Testimonials',
-      },
-      {
-        to: 'pricing',
-        label: 'Pricing',
-      },
-      {
         to: 'contact',
         label: 'Kontakt',
       },
@@ -74,7 +66,7 @@ export default {
     background: {
       src: background,
       srcSet: `${background} 1x, ${background2x} 2x`,
-      alt: 'Real Estate',
+      alt: 'Header',
     },
     title: 'Theyphania',
     subtitle: 'Rollenspiel und Multigaming Community',
@@ -84,7 +76,7 @@ export default {
       {
         as: 'a',
         href:
-          'https://community.theyphania.de',
+          'https://community.theyphania.de/register/',
         children: 'Tritt uns bei',
         target: '_blank',
       },
@@ -100,19 +92,19 @@ export default {
     title: 'Unser Angebot',
     services: [
       {
-        icon: Consulting,
+        icon: Roleplay,
         title: 'Rollenspiel',
         text:
           'Das Übernehmen eines fremden Charakters. Aboslute Freiheit bei der Gestaltung der Rolle. Das macht unser Rollenspiel aus.',
       },
       {
-        icon: Auditing,
+        icon: Community,
         title: 'Gemeinschaft',
         text:
           'Nachts um 2 noch Lust auf eine schnelle Runde CS:GO? Bei uns findest du mit Sicherheit jemanden mit ähnlichem Interesse.',
       },
       {
-        icon: Strategy,
+        icon: Fun,
         title: 'Spaß',
         text:
           'Mit unserem Fokus auf Fairness ist der Spielspaß garantiert. Spiele zusammen mit Anderen um das Erlebnis noch spaßiger zu gestalten.',
@@ -246,20 +238,6 @@ export default {
       },
     ],
   },
-  testimonials: {
-    subtitle: 'Our customer reviews',
-    title: 'Testimonials',
-    comments: [
-      {
-        author: 'Pat Cooper, Big Company SEO',
-        text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a tellus turpis. Suspendisse posuere quam consequat magna bibendum pretium. Vivamus in porta mauris. Vestibulum ut euismod purus. Sed eu malesuada elit. Curabitur posuere consequat gravida. Donec laoreet volutpat sapien, sed malesuada nisi pellentesque et. Etiam imperdiet nunc enim, sit amet tempor sapien molestie id.`,
-      },
-      {
-        author: 'Orsola Jeroch, Bigger Company CTO',
-        text: `Praesent nec commodo arcu. Vivamus convallis pretium malesuada. Aenean feugiat maximus suscipit. Fusce maximus aliquam ipsum, at hendrerit augue aliquet ac. Maecenas scelerisque, massa a fringilla imperdiet, velit purus gravida dolor, et blandit lorem nulla non eros.`,
-      },
-    ],
-  },
   contactCta: {
     subtitle: 'Wir suchen Teammitglieder.',
     title: 'Bewirb dich jetzt!',
@@ -278,138 +256,6 @@ export default {
       },
     ],
   },
-  pricing: {
-    title: 'Pricing',
-    prices: {
-      currency: 'USD',
-      types: {
-        a: 'Monthly',
-        b: 'Annually',
-      },
-      sections: [
-        {
-          title: 'Beginner',
-          price: {
-            a: '$0',
-            b: '$0',
-          },
-          features: [
-            {
-              text: 'Ut commodo suscipit',
-              check: true,
-            },
-            {
-              text: 'Mauris congue viverra',
-              check: true,
-            },
-            {
-              text: 'Nunc non orci ut mi',
-              check: false,
-            },
-            {
-              text: 'Nullam vitae tortor',
-              check: false,
-            },
-            {
-              text: 'Lorem ipsum dolor sit',
-              check: false,
-            },
-            {
-              text: 'Fusce quis vestibulum',
-              check: false,
-            },
-          ],
-          button: {
-            text: 'Get a quote',
-            ButtonProps: {
-              as: 'a',
-              href: 'https://mypags.app',
-            },
-          },
-        },
-        {
-          title: 'Advanced',
-          price: {
-            a: '$12',
-            b: '$120',
-          },
-          features: [
-            {
-              text: 'Ut commodo suscipit',
-              check: true,
-            },
-            {
-              text: 'Mauris congue viverra',
-              check: true,
-            },
-            {
-              text: 'Nunc non orci ut mi',
-              check: true,
-            },
-            {
-              text: 'Nullam vitae tortor',
-              check: true,
-            },
-            {
-              text: 'Lorem ipsum dolor sit',
-              check: false,
-            },
-            {
-              text: 'Fusce quis vestibulum',
-              check: false,
-            },
-          ],
-          button: {
-            text: 'Get a quote',
-            ButtonProps: {
-              as: 'a',
-              href: 'https://mypags.app',
-            },
-          },
-        },
-        {
-          title: 'Expert',
-          price: {
-            a: '$24',
-            b: '$240',
-          },
-          features: [
-            {
-              text: 'Ut commodo suscipit',
-              check: true,
-            },
-            {
-              text: 'Mauris congue viverra',
-              check: true,
-            },
-            {
-              text: 'Nunc non orci ut mi',
-              check: true,
-            },
-            {
-              text: 'Nullam vitae tortor',
-              check: true,
-            },
-            {
-              text: 'Lorem ipsum dolor sit',
-              check: true,
-            },
-            {
-              text: 'Fusce quis vestibulum',
-              check: true,
-            },
-          ],
-          button: {
-            text: 'Get a quote',
-            ButtonProps: {
-              as: 'a',
-              href: 'https://mypags.app',
-            },
-          },
-        },
-      ],
-    },
-  },
   contact: {
     subtitle: 'Noch Fragen?',
     title: 'Kontakt',
@@ -422,11 +268,5 @@ export default {
       },
     ],
   },
-  newsletter: {
-    subtitle: 'Interesse geweckt?',
-    title: 'Tritt unserer Community bei',
-    buttonText: 'Jetzt registrieren',
-    inputPlaceholder: 'Wech',
-  },
-  copyright: '© 2022 Theyphania',
+  copyright: '© 2022 Theyphania.',
 };
