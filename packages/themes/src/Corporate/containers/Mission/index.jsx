@@ -116,7 +116,7 @@ Mission.defaultProps = {
     color: 'invert',
     icon: ArrowRight,
   },
-  ...data.mission,
+  ...data.cardinal,
 };
 
 export default Mission;
