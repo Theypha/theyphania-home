@@ -131,7 +131,7 @@ Goals.defaultProps = {
   AddressPhoneProps: {
     color: 'brand',
   },
-  ...data.contact,
+  ...data.kontakt,
 };
 
 export default Goals;
