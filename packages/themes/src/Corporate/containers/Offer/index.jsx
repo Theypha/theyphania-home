@@ -141,7 +141,7 @@ Offer.defaultProps = {
     color: 'text',
     textAlign: 'center',
   },
-  ...data.offer,
+  ...data.angebot,
 };
 
 export default Offer;
