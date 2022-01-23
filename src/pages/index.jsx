@@ -12,10 +12,7 @@ import {
   Mission,
   Cta,
   Team,
-  Testimonials,
-  Pricing,
   Copyright,
-  Newsletter,
   Contact,
 } from '@pagerland/themes/src/Corporate/containers';
 import data from '@pagerland/themes/src/Corporate/data';
@@ -31,7 +28,7 @@ const Corporate = ({ url }) => (
       <meta name="theme-color" content={theme.colors.primary} />
       <meta property="og:image" content={`${url}${preview}`} />
     </Helmet>
-    <SEO title="Theyphania" />
+    <SEO title="Willkommen!" />
 
     <Navbar />
     <Welcome name="" />
@@ -40,11 +37,8 @@ const Corporate = ({ url }) => (
     <Mission name="mission" />
     <Cta name="cta" {...data.supportCta} />
     <Team name="team" />
-    <Testimonials name="testimonials" />
     <Cta name="cta" {...data.contactCta} />
-    <Pricing name="pricing" />
     <Contact name="contact" />
-    <Newsletter name="newsletter" />
     <Copyright />
   </Theme>
 );
@@ -54,7 +48,7 @@ Corporate.propTypes = {
 };
 
 Corporate.defaultProps = {
-  url: 'https://home.theyphania.de',
+  url: 'https://www.theyphania.de',
 };
 
 export default Corporate;
