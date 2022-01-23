@@ -108,7 +108,7 @@ Goals.defaultProps = {
   GridProps: {
     gridTemplateColumns: {
       _: '1fr',
-      lg: 'repeat(3, 1fr)',
+      lg: 'repeat(1, 1fr)',
     },
     gridGap: {
       _: '64px',
