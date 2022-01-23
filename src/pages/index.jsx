@@ -32,13 +32,13 @@ const Corporate = ({ url }) => (
 
     <Navbar />
     <Welcome name="" />
-    <Offer name="offer" />
-    <Goals name="goals" />
-    <Mission name="mission" />
+    <Offer name="angebot" />
+    <Goals name="velden" />
+    <Mission name="cardinal" />
     <Cta name="cta" {...data.supportCta} />
     <Team name="team" />
     <Cta name="cta" {...data.contactCta} />
-    <Contact name="contact" />
+    <Contact name="kontakt" />
     <Copyright />
   </Theme>
 );
@@ -48,7 +48,7 @@ Corporate.propTypes = {
 };
 
 Corporate.defaultProps = {
-  url: 'https://www.theyphania.de',
+  url: 'https://theyphania.de',
 };
 
 export default Corporate;
