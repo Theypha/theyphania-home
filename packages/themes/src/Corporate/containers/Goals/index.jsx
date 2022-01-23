@@ -116,7 +116,7 @@ Goals.defaultProps = {
     color: 'invert',
     icon: ArrowRight,
   },
-  ...data.goals,
+  ...data.velden,
 };
 
 export default Goals;
