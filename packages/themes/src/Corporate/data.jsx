@@ -250,7 +250,7 @@ export default {
       },
     ],
   },
-  contact: {
+  kontakt: {
     subtitle: 'Noch Fragen?',
     title: 'Schreib\' uns!',
     addresses: [
