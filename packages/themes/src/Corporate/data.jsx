@@ -130,7 +130,7 @@ export default {
     subtitle: 'Powered by Theyphania',
     title: 'Cardinal',
     text:
-      'Ein robustes Gamepanel im Stile des Cardinal-Systems aus der weltweit bekannten Anime-Serie "Sword Art Online" zur Verwaltung unserer Server und Services. Basierend auf dem quelloffenen Pterodactyl Panel nutzt Cardinal sein Potenziel durch die fähigen Hände unserer Techniker:innen voll aus. Die Verwendung von Cardinal erlaubt es unserem Team effizient und sinnvoll mit unseren Servern zu interagieren, Updates zeitnah einzuspielen und geordnet seinen Pflichten gegenüber der Community nachzukommen.',
+      'Ein robustes Gamepanel im Stile des Cardinal-Systems aus der weltweit bekannten Anime-Serie "Sword Art Online" zur Verwaltung unserer Server und Services. Basierend auf dem quelloffenen Pterodactyl Panel nutzt Cardinal sein Potenziel durch die fähigen Hände unseres Technikteams voll aus. Die Verwendung von Cardinal erlaubt es unserem Team effizient und sinnvoll mit unseren Servern zu interagieren, Updates zeitnah einzuspielen und geordnet seinen Pflichten gegenüber der Community nachzukommen.',
     cta: {
       children: 'Mehr Infos zu Cardinal',
       href:
@@ -159,7 +159,7 @@ export default {
     subtitle: 'Ohne ein Team läuft nix',
     title: 'Triff unser Team',
     text:
-      'Hier bei Theyphania steht neben dem Rollenspiel auch der Spaß ganz weit vorne. Unser Team sorgt dafür, dass unsere Spieler:innen sorgenfrei und sicher den größtmöglichen Spaß im Rollenspiel erfahren können. Dabei ist es egal, ob du weißt wie man in Minecraft baut, Erfahrungen bei der Moderation von User:innen hast, oder deine technischen Kenntnise uns weiterhelfen können. Wir freuen uns in jedem Fall auf eine Bewerbung von dir!',
+      'Hier bei Theyphania steht neben dem Rollenspiel auch der Spaß ganz weit vorne. Unser Team sorgt dafür, dass unsere Mitglieder sorgenfrei und sicher den größtmöglichen Spaß im Rollenspiel erfahren können. Dabei ist es egal, ob du weißt wie man in Minecraft baut, Erfahrungen bei der Moderation von Mitgliedern, oder deine technischen Kenntnise uns weiterhelfen können. Wir freuen uns in jedem Fall auf eine Bewerbung von dir!',
     cta: {
       label: 'Interesse? Guck dir unsere offenen Posten an!',
       href:
