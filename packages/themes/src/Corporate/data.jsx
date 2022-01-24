@@ -113,7 +113,7 @@ export default {
     subtitle: 'Willkommen im Königreich',
     title: 'Velden',
     text:
-      '',
+      'Tauche in eine mittelalterliche Fantasy-Welt mit Fokus auf Adel und die Bourgeois ein. Nach einer apokalyptisch anmutenden Katastrophe, die den ganzen Kontinent Dakros erschütterte und der ein Großteil der Bevölkerung zum Opfer fiel, ist das Königreich Velden aus den Ruinen des alten Kaiserreiches entstanden, um das nun von Monstern und finsteren Gestalten befallene Land wieder bewohnbar und sicher zu machen.',
     cta: {
       children: 'Zur Karte',
       href:
@@ -130,7 +130,7 @@ export default {
     subtitle: 'Powered by Theyphania',
     title: 'Cardinal',
     text:
-      '',
+      'Ein robustes Gamepanel im Stile des Cardinal-Systems aus der weltweit bekannten Anime-Serie "Sword Art Online" zur Verwaltung unserer Server und Services. Basierend auf dem quelloffenen Pterodactyl Panel nutzt Cardinal sein Potenziel durch die fähigen Hände unserer Techniker voll aus. Die Verwendung von Cardinal erlaubt es unserem Team effizient und sinnvoll mit unseren Servern zu interagieren, Updates zeitnah einzuspielen und geordnet seinen Pflichten gegenüber de Community nachzukommen.',
     cta: {
       children: 'Mehr Infos zu Cardinal',
       href:
@@ -252,10 +252,10 @@ export default {
   },
   kontakt: {
     subtitle: 'Noch Fragen?',
-    title: 'Schreib\' uns!',
+    title: 'Impressum',
     addresses: [
       {
-        title: 'Benjamin Selig',
+        title: 'i. V. Benjamin Selig',
         address: textToMultiline`Langgasse 7\n35510 Butzbach\nDeutschland`,
         email: 'kontakt@theyphania.de',
         phone: '+49 160 2457 494',
