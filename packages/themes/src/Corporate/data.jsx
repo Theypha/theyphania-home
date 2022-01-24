@@ -65,7 +65,7 @@ export default {
     title: 'Theyphania',
     subtitle: 'Rollenspiel und Multigaming Community',
     description:
-      'Theyphania bietet dir eine Rollenspiel-Erfahrung der Extraklasse. Zusammen mit anderen Rollenspiel-Enthusiast:innen laden wir dich ein auf eine Reise die du so schnell nicht vergessen wirst.',
+      'Theyphania bietet dir eine Rollenspiel-Erfahrung der Extraklasse. Zusammen mit anderen Rollenspiel-Begeisterten laden wir dich ein auf eine Reise die du so schnell nicht vergessen wirst.',
     actions: [
       {
         as: 'a',
