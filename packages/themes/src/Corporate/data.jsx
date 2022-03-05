@@ -199,7 +199,7 @@ export default {
           'https://community.theyphania.de',
       },
       {
-        label: 'Team-Dokumentation',
+        label: 'Wiki',
         href: 'https://go.theyphania.de/confluence',
         variant: 'outline',
       },
