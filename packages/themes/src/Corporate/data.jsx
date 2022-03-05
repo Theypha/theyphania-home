@@ -161,7 +161,7 @@ export default {
     text:
       'Hier bei Theyphania steht neben dem Rollenspiel auch der Spaß ganz weit vorne. Unser Team sorgt dafür, dass unsere Mitglieder sorgenfrei und sicher den größtmöglichen Spaß im Rollenspiel erfahren können. Dabei ist es egal, ob du weißt wie man in Minecraft baut, Erfahrungen bei der Moderation von Mitgliedern, oder deine technischen Kenntnise uns weiterhelfen können. Wir freuen uns in jedem Fall auf eine Bewerbung von dir!',
     cta: {
-      label: 'Interesse? Guck dir unsere offenen Posten an!',
+      label: 'Jetzt bewerben!',
       href:
         'https://community.theyphania.de',
     },
@@ -189,46 +189,6 @@ export default {
         },
         name: 'Tommy',
         position: 'Senior-Manager',
-      },
-      {
-        avatar: {
-          src: Avatar4,
-          srcSet: `${Avatar4} 1x`,
-        },
-        name: 'Pozor',
-        position: 'Manager',
-      },
-      {
-        avatar: {
-          src: Avatar5,
-          srcSet: `${Avatar5} 1x`,
-        },
-        name: 'Zer00na',
-        position: 'Junior-Manager',
-      },
-      {
-        avatar: {
-          src: Avatar6,
-          srcSet: `${Avatar6} 1x`,
-        },
-        name: 'Raptus153',
-        position: 'Senior-Historiker',
-      },
-      {
-        avatar: {
-          src: Avatar7,
-          srcSet: `${Avatar7} 1x`,
-        },
-        name: 'Truco',
-        position: 'Regulator',
-      },
-      {
-        avatar: {
-          src: Avatar8,
-          srcSet: `${Avatar8} 1x`,
-        },
-        name: 'Rorschach69',
-        position: 'Junior-Historiker',
       },
     ],
   },
