@@ -163,9 +163,9 @@ Team.defaultProps = {
     gridArea: 'team',
     textAlign: 'center',
     gridTemplateColumns: {
-      _: 'repeat(2, 1fr)',
+      _: 'repeat(3, 1fr)',
       md: 'repeat(3, 1fr)',
-      lg: 'repeat(4, 1fr)',
+      lg: 'repeat(3, 1fr)',
     },
     gridColumnGap: '32px',
     gridRowGap: {
@@ -174,7 +174,7 @@ Team.defaultProps = {
     },
   },
   AvatarProps: {
-    width: 92,
+    width: 128,
     mb: 2,
   },
   NameProps: {
