@@ -7,14 +7,9 @@ import Team from './assets/team.png';
 import Roleplay from './assets/roleplay.png';
 import Community from './assets/community.png';
 import Fun from './assets/fun.png';
-import Avatar1 from './assets/avatars/avatar-1.jpg';
-import Avatar2 from './assets/avatars/avatar-2.jpg';
-import Avatar3 from './assets/avatars/avatar-3.jpg';
-import Avatar4 from './assets/avatars/avatar-4.jpg';
-import Avatar5 from './assets/avatars/avatar-5.jpg';
-import Avatar6 from './assets/avatars/avatar-6.jpg';
-import Avatar7 from './assets/avatars/avatar-7.jpg';
-import Avatar8 from './assets/avatars/avatar-8.jpg';
+import Avatar1 from './assets/avatars/avatar-1.webp';
+import Avatar2 from './assets/avatars/avatar-2.webp';
+import Avatar3 from './assets/avatars/avatar-3.webp';
 
 export default {
   title: 'Corporate',
@@ -156,8 +151,8 @@ export default {
       src: Team,
       srcSet: `${Team} 1x`,
     },
-    subtitle: 'Ohne ein Team läuft nix',
-    title: 'Triff unser Team',
+    subtitle: 'Wer steckt hinter alledem?',
+    title: 'Das Team',
     text:
       'Hier bei Theyphania steht neben dem Rollenspiel auch der Spaß ganz weit vorne. Unser Team sorgt dafür, dass unsere Mitglieder sorgenfrei und sicher den größtmöglichen Spaß im Rollenspiel erfahren können. Dabei ist es egal, ob du weißt wie man in Minecraft baut, Erfahrungen bei der Moderation von Mitgliedern, oder deine technischen Kenntnise uns weiterhelfen können. Wir freuen uns in jedem Fall auf eine Bewerbung von dir!',
     cta: {
