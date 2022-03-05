@@ -175,6 +175,7 @@ Team.defaultProps = {
   },
   AvatarProps: {
     width: 128,
+    height: 128,
     mb: 2,
   },
   NameProps: {
