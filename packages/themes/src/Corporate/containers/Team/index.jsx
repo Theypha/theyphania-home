@@ -163,7 +163,7 @@ Team.defaultProps = {
     gridArea: 'team',
     textAlign: 'center',
     gridTemplateColumns: {
-      _: 'repeat(3, 1fr)',
+      _: 'repeat(2, 1fr)',
       md: 'repeat(3, 1fr)',
       lg: 'repeat(3, 1fr)',
     },
