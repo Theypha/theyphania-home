@@ -159,6 +159,8 @@ export default {
       label: 'Jetzt bewerben!',
       href:
         'https://community.theyphania.de',
+      target: '_blank',
+      as: 'a',
     },
     people: [
       {
